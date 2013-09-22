@@ -1,0 +1,64 @@
+<TonRacerGame>
+	<MenuData>
+		<!-- Naam in het logo -->
+		<GameTitle>TurboRacer</GameTitle>
+		
+		<!-- Tekst voor het hoofdmenu -->
+		<MenuItemNames>
+			<NewGame>New Game</NewGame>
+			<TonGame>Ton Game</TonGame>
+			<Options>Options</Options>
+			<Credits>Credits</Credits>
+			<Cheats>Cheats</Cheats>
+			<QuitGame>Quit Game</QuitGame>
+		</MenuItemNames>
+		
+		<!-- Weergegeven wanneer countdown klaar is -->
+		<CountDownFinishText>GO   :D</CountDownFinishText>
+	</MenuData>
+	
+	<!-- Data -->
+	<RacerData>
+		<!-- Autodata -->
+		<Car>
+			<CarName>Lotus Elise</CarName>
+			<CarData></CarData>
+			<CarSelData>lotusSel.svg</CarSelData>
+			<CarColor>0xff0000</CarColor>
+			<Playable>true</Playable>
+		</Car>
+		<Car>
+			<CarName>Lamborghini Murcielago</CarName>
+			<CarData>lamboCar.svg</CarData>
+			<CarSelData>lamboSel.svg</CarSelData>
+			<CarColor>0x00ff00</CarColor>
+			<Playable>true</Playable>
+		</Car>
+		<Car>
+			<CarName>Ferrari Enzo</CarName>
+			<CarData></CarData>
+			<CarSelData>enzoSel.svg</CarSelData>
+			<CarColor>0x0000ff</CarColor>
+			<Playable>true</Playable>
+		</Car>
+		<!-- Obstacle data -->
+		<Obstacle>
+			<ObstacleName>cone</ObstacleName>
+			<ObstacleData></ObstacleData>
+			<ObstacleMass>1</ObstacleMass>
+			<ObstacleColor>0xFF8B00</ObstacleColor>
+		</Obstacle>
+		<Obstacle>
+			<ObstacleName>hek</ObstacleName>
+			<ObstacleData>hekObstakel.svg</ObstacleData>
+			<ObstacleMass>5</ObstacleMass>
+			<ObstacleColor>0xff0000</ObstacleColor>
+		</Obstacle>
+		<Obstacle>
+			<ObstacleName>container</ObstacleName>
+			<ObstacleData>containerObstakel.svg</ObstacleData>
+			<ObstacleMass>3</ObstacleMass>
+			<ObstacleColor>0x0000ff</ObstacleColor>
+		</Obstacle>
+	</RacerData>
+</TonRacerGame>
